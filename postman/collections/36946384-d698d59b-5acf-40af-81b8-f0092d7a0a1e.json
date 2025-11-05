@@ -1,0 +1,1658 @@
+{
+	"info": {
+		"_postman_id": "36946384-d698d59b-5acf-40af-81b8-f0092d7a0a1e",
+		"name": "Budget-and-plan Web-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Formats",
+			"item": [
+				{
+					"name": "addSubFormats",
+					"id": "36946384-a76b1f3a-3001-41de-b3ad-4f7edcdb574a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"discription\":\"demandDeposit01Lasr\",\r\n    \"parentcode\":\"1001\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/addSubFormats",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"addSubFormats"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-17abdde0-da4d-42d9-8c35-f457d8fc1a9e",
+							"name": "success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/saveFormats",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"saveFormats"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						},
+						{
+							"id": "36946384-43540fec-528c-4eb5-ad3c-b71ba402ea38",
+							"name": "failed",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/saveFormats",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"saveFormats"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "addSubMainFormats",
+					"id": "36946384-749b63bf-be2d-4d29-a310-dab43ef881ce",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"discription\":\"Conventional Deposit Deposit\",\r\n    \"parentcode\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/addSubMainFormats",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"addSubMainFormats"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-bed01336-fc42-4c77-8a41-f1b38a3035ef",
+							"name": "success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/saveFormats",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"saveFormats"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						},
+						{
+							"id": "36946384-617ea1bb-d927-4c76-b6b0-ea2e2ff3a723",
+							"name": "failed",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/saveFormats",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"saveFormats"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "GetFormData",
+					"id": "36946384-f492c845-8684-47a5-a9c4-ebf2b386a8d2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-59155416-1cda-4a96-ad98-8301c204e14b",
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": ""
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "addMainFormats",
+					"id": "36946384-01519146-21f1-4a25-ab81-50b8591b2306",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"formatId\": \"010\", \r\n\"Desscription\": \"Operational Format\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8094/Bplan_api/app/addMainFormat",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"addMainFormat"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-b7962c97-b01e-4760-8933-58fc78206763",
+							"name": "success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"formatId\": \"01\", \r\n\"Desscription\": \"Operational Format\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://10.100.13.44:8094/Bplan_api/app/addMainFormat",
+									"protocol": "http",
+									"host": [
+										"10",
+										"100",
+										"13",
+										"44"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"addMainFormat"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "getMainFormats",
+					"id": "36946384-214e5419-d5c7-4154-83e7-5914f5f01e9e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/geMainFormats",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"geMainFormats"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-87fe6516-f0b4-48c6-a902-23e405324ecb",
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/getformatdata",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"getformatdata"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "getSubFormats",
+					"id": "36946384-ed606c7f-278a-43fd-94ee-5ad99a9becd4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/getSubFormats?parentcode=101",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"getSubFormats"
+							],
+							"query": [
+								{
+									"key": "parentcode",
+									"value": "101"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-b92713cc-3fc8-49b6-819c-6d6505f33c0a",
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/getformatdata",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"getformatdata"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "getSuBmainFormats",
+					"id": "36946384-3fab474c-4e69-4d4d-8d61-e8476080233d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/getSubMainFormats?parentcode=10",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"getSubMainFormats"
+							],
+							"query": [
+								{
+									"key": "parentcode",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-71b2f06c-ab94-466d-b029-49ec5691c1ec",
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/getformatdata",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"getformatdata"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "getSubFormatsLevel",
+					"id": "36946384-c993f5d2-e1c2-48ef-822d-ee3799513c3d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/getSubFormatsByLevel?parentcode=1011",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"getSubFormatsByLevel"
+							],
+							"query": [
+								{
+									"key": "parentcode",
+									"value": "1011"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-0a53c802-80aa-4755-b08f-379974d177bb",
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/geSubFormats",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"geSubFormats"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "updateSubMainFormats",
+					"id": "36946384-ee6ed70b-d30b-4656-b7fa-31ffa6b548af",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\":\"Digital Subscriptions\",\r\n    \"parentcode\":\"11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/updateSubMainFormats/1107e",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"updateSubMainFormats",
+								"1107e"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-bc9ff426-c72f-4c22-bb4e-7b50c61cb423",
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/geSubFormats",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"geSubFormats"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "updateSubFormats",
+					"id": "36946384-3dd7128f-b119-426c-9482-dda24b907734",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\":\"It Transfers\",\r\n    \"parentcode\":\"1004\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/updateSubFormats/100403",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"updateSubFormats",
+								"100403"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-86a4aa99-6aa6-4d19-8bd8-5a31d9a3e2fb",
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/geSubFormats",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"geSubFormats"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "deleteSubMainFormats",
+					"id": "36946384-2469259a-e9bb-4446-8135-200ef86e5747",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/deleteSubMainFormats/1006",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"deleteSubMainFormats",
+								"1006"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-6773a32b-b31f-4360-a990-fc5efa42bd20",
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/geSubFormats",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"geSubFormats"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "deleteSubFormats",
+					"id": "36946384-ea4de642-8fce-43ac-ba31-fed7bcdc51ae",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/deleteSubFormats/100111",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"deleteSubFormats",
+								"100111"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-766100fd-80d4-4591-8b59-44f86d77fb1c",
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/geSubFormats",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"geSubFormats"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				}
+			],
+			"id": "36946384-1b134e99-70ef-407a-b390-618c94645668"
+		},
+		{
+			"name": "DistrictReport",
+			"item": [
+				{
+					"name": "depositBydistrict",
+					"id": "36946384-3dd5460d-131c-4864-b334-cd50d55fb47d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"district_code\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8094/Bplan_api/app/Depositbydistrict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"Depositbydistrict"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Expensebydistrict",
+					"id": "36946384-2efbda41-97d9-40ce-a574-e2e57f3d3136",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"district_code\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8094/Bplan_api/app/Expensebydistrict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"Expensebydistrict"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "IncomeByDistrict",
+					"id": "36946384-55f4fd22-2545-47da-9601-a0187988317a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"district_code\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8094/Bplan_api/app/Incomebydistrict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"Incomebydistrict"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Allocationbydistrict",
+					"id": "36946384-dd136c0b-5de2-43a2-81e7-8c2498e1538f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"district_code\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8094/Bplan_api/app/Allocationbydistrict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"Allocationbydistrict"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OperationreportByDistrict",
+					"id": "36946384-1f58f387-9a88-43c2-9f4e-bd3dccbad629",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"district_code\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8094/Bplan_api/app/OperationreportByDistrict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"OperationreportByDistrict"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "FCYbydistrict",
+					"id": "36946384-ad19a6a9-c5c6-4918-ae39-83d8712d5fb2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"district_code\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8094/Bplan_api/app/FCYbydistrict?district_code=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"FCYbydistrict"
+							],
+							"query": [
+								{
+									"key": "district_code",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getBranchSumreportPending",
+					"id": "36946384-482aa980-77bf-405a-8bc0-f4de2a6357de",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/getBranchSumReport/pending?district_code=6&parentCode=10",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"getBranchSumReport",
+								"pending"
+							],
+							"query": [
+								{
+									"key": "district_code",
+									"value": "6"
+								},
+								{
+									"key": "parentCode",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-58f55d32-12d1-4b36-a897-fa9177419fff",
+							"name": "approved",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/getBranchSumReport/approved?district_code=6&parentCode=10",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"getBranchSumReport",
+										"approved"
+									],
+									"query": [
+										{
+											"key": "district_code",
+											"value": "6"
+										},
+										{
+											"key": "parentCode",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						},
+						{
+							"id": "36946384-dc4b6654-73d5-443b-abd1-eb19b41169cd",
+							"name": "rejected",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/getBranchSumReport/rejected?district_code=6&parentCode=10",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"getBranchSumReport",
+										"rejected"
+									],
+									"query": [
+										{
+											"key": "district_code",
+											"value": "6"
+										},
+										{
+											"key": "parentCode",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				}
+			],
+			"id": "36946384-cef8f74c-1364-4dbb-b63b-0761d16ec86e"
+		},
+		{
+			"name": "Branchs",
+			"item": [
+				{
+					"name": "GetBranchByBranchCode",
+					"id": "36946384-d9f35f07-a2b2-4158-9502-6e885b3692c5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"branch_code\": \"3340\", \r\n\"parent_code\": \"8\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://172.16.239.35:8094/Bplan_api/app/get_bybranch_parentcode",
+							"protocol": "http",
+							"host": [
+								"172",
+								"16",
+								"239",
+								"35"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"get_bybranch_parentcode"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "36946384-81f0006d-647a-4ab0-b43e-0791990f55f7"
+		},
+		{
+			"name": "StockItems",
+			"item": [
+				{
+					"name": "AddItemPrice",
+					"id": "36946384-6a4ec8fa-6670-4a60-ad7b-7ece7a617a92",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"item\": \"12035\", \r\n\"unitPrice\": \"123000\"\r\n}"
+						},
+						"url": {
+							"raw": "http://10.100.13.44:8094/Bplan_api/app/registerItem",
+							"protocol": "http",
+							"host": [
+								"10",
+								"100",
+								"13",
+								"44"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"registerItem"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "36946384-e1cd6e81-b4c1-42f2-a7ff-d392bf091755"
+		},
+		{
+			"name": "ApproveReject",
+			"item": [
+				{
+					"name": "approverejectByDistrict",
+					"id": "36946384-eda6b693-8782-4b6c-8f77-717919f2f821",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"branch_code\": \"1205\", \r\n   \"parentcode\": \"123000\",\r\n   \"reason\":\"TEst Purpose\",\r\n   \"status\":\"1\",\r\n   \"UserId\":\"Aba00003\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8094/Bplan_api/app/approvereject",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"approvereject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "approverejectByHeadOffice",
+					"id": "36946384-f71cf7b6-ab52-43b5-847e-9268f51b453a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"districtcode\": \"01\", \r\n   \"reason\": \"Approved By District By Strategy\",\r\n   \"status\":\"1\",\r\n   \"UserId\":\"Aba00003\",\r\n   \"parentCode\":\"10\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8094/Bplan_api/app/approverejectByStrategy",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"approverejectByStrategy"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "36946384-ba134e53-ae8b-449a-ae00-d095cada2b16"
+		},
+		{
+			"name": "FiscalYears",
+			"item": [
+				{
+					"name": "AddFiscalyears",
+					"id": "36946384-7e9687f6-685e-41d4-a975-1c555c9155f6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"FiscalYear\":\"234\",\r\n    \"closingDate\":\"2025-10-31\",\r\n    \"openingDate\":\"2025-10-31\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/addBudgetYears",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"addBudgetYears"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-84b0b12a-1e4f-476f-9a3e-f011325fb1f6",
+							"name": "success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"FiscalYear\":\"234\",\r\n    \"closingDate\":\"2025-10-31\",\r\n    \"openingDate\":\"2025-10-31\"\r\n    \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/addBudgetYears",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"addBudgetYears"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "updateFiscalyears",
+					"id": "36946384-477846d5-ba56-4576-945b-00e7cef5ec8a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"closingDate\":\"2025-10-31\",\r\n    \"openingDate\":\"2025-12-01\" ,\r\n    \"budgetYear\":\"2025\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/updateBudgetFall",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"updateBudgetFall"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-b1fe63c8-aab6-4176-8442-04cb5fe26213",
+							"name": "success",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \r\n    \"closingDate\":\"2025-10-31\",\r\n    \"openingDate\":\"2025-10-31\" \r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/updateBudgetFall/2025",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"updateBudgetFall",
+										"2025"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				}
+			],
+			"id": "36946384-8c45d9e9-7046-4e0f-89af-2c8a00106053"
+		},
+		{
+			"name": "Data",
+			"item": [
+				{
+					"name": "SubmitFormdata",
+					"id": "36946384-0af737e7-aeea-4530-8533-142b0a58eba2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n  {\r\n    \"branch_code\": \"ET0010265\",\r\n    \"actual\": \"125000\",\r\n    \"estimated\": \"130000\",\r\n    \"parent_code\": \"100101\",\r\n    \"Jul\": \"10000\",\r\n    \"Aug\": \"11000\",\r\n    \"Sep\": \"9500\",\r\n    \"Oct\": \"10500\",\r\n    \"Nov\": \"12000\",\r\n    \"Dec\": \"11500\",\r\n    \"Jan\": \"9000\",\r\n    \"Feb\": \"8800\",\r\n    \"Mar\": \"9200\",\r\n    \"Apr\": \"9700\",\r\n    \"May\": \"9800\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"ET0010265\",\r\n    \"actual\": \"140000\",\r\n    \"estimated\": \"145000\",\r\n    \"parent_code\": \"100102\",\r\n    \"Jul\": \"12000\",\r\n    \"Aug\": \"12500\",\r\n    \"Sep\": \"13000\",\r\n    \"Oct\": \"11000\",\r\n    \"Nov\": \"11500\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"9500\",\r\n    \"Feb\": \"9400\",\r\n    \"Mar\": \"9600\",\r\n    \"Apr\": \"9800\",\r\n    \"May\": \"10000\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"ET0010265\",\r\n    \"actual\": \"155000\",\r\n    \"estimated\": \"160000\",\r\n    \"parent_code\": \"100103\",\r\n    \"Jul\": \"13000\",\r\n    \"Aug\": \"13500\",\r\n    \"Sep\": \"12500\",\r\n    \"Oct\": \"12000\",\r\n    \"Nov\": \"12200\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"10000\",\r\n    \"Feb\": \"9700\",\r\n    \"Mar\": \"9800\",\r\n    \"Apr\": \"9900\",\r\n    \"May\": \"10100\",\r\n    \"Jun\": \"10400\"\r\n  }\r\n]\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/sumbit",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"sumbit"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-ec4d9436-2d4c-464c-b5ec-c8a710e5d11c",
+							"name": "FormData",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n  {\r\n    \"branch_code\": \"ET0010023\",\r\n    \"actual\": \"125000\",\r\n    \"estimated\": \"130000\",\r\n    \"parent_code\": \"100101\",\r\n    \"Jul\": \"10000\",\r\n    \"Aug\": \"11000\",\r\n    \"Sep\": \"9500\",\r\n    \"Oct\": \"10500\",\r\n    \"Nov\": \"12000\",\r\n    \"Dec\": \"11500\",\r\n    \"Jan\": \"9000\",\r\n    \"Feb\": \"8800\",\r\n    \"Mar\": \"9200\",\r\n    \"Apr\": \"9700\",\r\n    \"May\": \"9800\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"ET0010023\",\r\n    \"actual\": \"140000\",\r\n    \"estimated\": \"145000\",\r\n    \"parent_code\": \"100102\",\r\n    \"Jul\": \"12000\",\r\n    \"Aug\": \"12500\",\r\n    \"Sep\": \"13000\",\r\n    \"Oct\": \"11000\",\r\n    \"Nov\": \"11500\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"9500\",\r\n    \"Feb\": \"9400\",\r\n    \"Mar\": \"9600\",\r\n    \"Apr\": \"9800\",\r\n    \"May\": \"10000\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"ET0010023\",\r\n    \"actual\": \"155000\",\r\n    \"estimated\": \"160000\",\r\n    \"parent_code\": \"100103\",\r\n    \"Jul\": \"13000\",\r\n    \"Aug\": \"13500\",\r\n    \"Sep\": \"12500\",\r\n    \"Oct\": \"12000\",\r\n    \"Nov\": \"12200\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"10000\",\r\n    \"Feb\": \"9700\",\r\n    \"Mar\": \"9800\",\r\n    \"Apr\": \"9900\",\r\n    \"May\": \"10100\",\r\n    \"Jun\": \"10400\"\r\n  }\r\n]\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/sumbit",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"sumbit"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "SaveSingleData",
+					"id": "36946384-025aef58-2391-4742-8519-45dd217fdb1c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"branch_code\": \"ET0010024\",\r\n    \"actual\": \"140000\",\r\n    \"estimated\": \"145000\",\r\n    \"parent_code\": \"100102\",\r\n    \"Jul\": \"12000\",\r\n    \"Aug\": \"12500\",\r\n    \"Sep\": \"13000\",\r\n    \"Oct\": \"11000\",\r\n    \"Nov\": \"11500\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"9500\",\r\n    \"Feb\": \"9400\",\r\n    \"Mar\": \"9600\",\r\n    \"Apr\": \"9800\",\r\n    \"May\": \"10000\",\r\n    \"Jun\": \"10200\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/save",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"save"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-e0469d8b-bdb0-4ac8-8620-8ac722677f55",
+							"name": "SaveSingleData",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n  {\r\n    \"branch_code\": \"ET0010023\",\r\n    \"actual\": \"125000\",\r\n    \"estimated\": \"130000\",\r\n    \"parent_code\": \"100101\",\r\n    \"Jul\": \"10000\",\r\n    \"Aug\": \"11000\",\r\n    \"Sep\": \"9500\",\r\n    \"Oct\": \"10500\",\r\n    \"Nov\": \"12000\",\r\n    \"Dec\": \"11500\",\r\n    \"Jan\": \"9000\",\r\n    \"Feb\": \"8800\",\r\n    \"Mar\": \"9200\",\r\n    \"Apr\": \"9700\",\r\n    \"May\": \"9800\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"ET0010023\",\r\n    \"actual\": \"140000\",\r\n    \"estimated\": \"145000\",\r\n    \"parent_code\": \"100102\",\r\n    \"Jul\": \"12000\",\r\n    \"Aug\": \"12500\",\r\n    \"Sep\": \"13000\",\r\n    \"Oct\": \"11000\",\r\n    \"Nov\": \"11500\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"9500\",\r\n    \"Feb\": \"9400\",\r\n    \"Mar\": \"9600\",\r\n    \"Apr\": \"9800\",\r\n    \"May\": \"10000\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"ET0010023\",\r\n    \"actual\": \"155000\",\r\n    \"estimated\": \"160000\",\r\n    \"parent_code\": \"100103\",\r\n    \"Jul\": \"13000\",\r\n    \"Aug\": \"13500\",\r\n    \"Sep\": \"12500\",\r\n    \"Oct\": \"12000\",\r\n    \"Nov\": \"12200\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"10000\",\r\n    \"Feb\": \"9700\",\r\n    \"Mar\": \"9800\",\r\n    \"Apr\": \"9900\",\r\n    \"May\": \"10100\",\r\n    \"Jun\": \"10400\"\r\n  }\r\n]\r\n"
+								},
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/save",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"save"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "BranchDataByParentCode",
+					"id": "36946384-ed3ff288-f8b5-4224-867f-666230daa1c3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/BranchDataByParentCode/rejected?parent_code=1001&branch_code=1205",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"BranchDataByParentCode",
+								"rejected"
+							],
+							"query": [
+								{
+									"key": "parent_code",
+									"value": "1001"
+								},
+								{
+									"key": "branch_code",
+									"value": "1205"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-410e260d-c1dc-4f29-b68b-75440c4fc86d",
+							"name": "SaveSingleData",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n  {\r\n    \"branch_code\": \"ET0010023\",\r\n    \"actual\": \"125000\",\r\n    \"estimated\": \"130000\",\r\n    \"parent_code\": \"100101\",\r\n    \"Jul\": \"10000\",\r\n    \"Aug\": \"11000\",\r\n    \"Sep\": \"9500\",\r\n    \"Oct\": \"10500\",\r\n    \"Nov\": \"12000\",\r\n    \"Dec\": \"11500\",\r\n    \"Jan\": \"9000\",\r\n    \"Feb\": \"8800\",\r\n    \"Mar\": \"9200\",\r\n    \"Apr\": \"9700\",\r\n    \"May\": \"9800\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"ET0010023\",\r\n    \"actual\": \"140000\",\r\n    \"estimated\": \"145000\",\r\n    \"parent_code\": \"100102\",\r\n    \"Jul\": \"12000\",\r\n    \"Aug\": \"12500\",\r\n    \"Sep\": \"13000\",\r\n    \"Oct\": \"11000\",\r\n    \"Nov\": \"11500\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"9500\",\r\n    \"Feb\": \"9400\",\r\n    \"Mar\": \"9600\",\r\n    \"Apr\": \"9800\",\r\n    \"May\": \"10000\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"ET0010023\",\r\n    \"actual\": \"155000\",\r\n    \"estimated\": \"160000\",\r\n    \"parent_code\": \"100103\",\r\n    \"Jul\": \"13000\",\r\n    \"Aug\": \"13500\",\r\n    \"Sep\": \"12500\",\r\n    \"Oct\": \"12000\",\r\n    \"Nov\": \"12200\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"10000\",\r\n    \"Feb\": \"9700\",\r\n    \"Mar\": \"9800\",\r\n    \"Apr\": \"9900\",\r\n    \"May\": \"10100\",\r\n    \"Jun\": \"10400\"\r\n  }\r\n]\r\n"
+								},
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/save",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"save"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						},
+						{
+							"id": "36946384-9d711c17-6429-4926-bd06-97ef942df84c",
+							"name": "rejected",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/BranchDataByParentCode/rejected?parent_code=1001&branch_code=1205",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"BranchDataByParentCode",
+										"rejected"
+									],
+									"query": [
+										{
+											"key": "parent_code",
+											"value": "1001"
+										},
+										{
+											"key": "branch_code",
+											"value": "1205"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "BranchDataByParentCode",
+					"id": "36946384-17689bbb-5b80-4190-bb64-62edafcb82e3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/BranchDataByParentCode/rejected?parent_code=1001&branch_code=1205",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"BranchDataByParentCode",
+								"rejected"
+							],
+							"query": [
+								{
+									"key": "parent_code",
+									"value": "1001"
+								},
+								{
+									"key": "branch_code",
+									"value": "1205"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "36946384-2f9755cf-7d70-4520-85ef-69e54f205bee"
+		}
+	]
+}

@@ -1382,7 +1382,7 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8094/Bplan_api/app/sumbit",
+							"raw": "localhost:8094/Bplan_api/app/submit",
 							"host": [
 								"localhost"
 							],
@@ -1390,7 +1390,7 @@
 							"path": [
 								"Bplan_api",
 								"app",
-								"sumbit"
+								"submit"
 							]
 						}
 					},

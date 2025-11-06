@@ -1058,6 +1058,118 @@
 							"body": ""
 						}
 					]
+				},
+				{
+					"name": "EachBranch Data",
+					"id": "36946384-06a809a0-cbb6-4a42-80e2-8823d90c07f7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/getBranchSumReport/pending?district_code=6&parentCode=10",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"getBranchSumReport",
+								"pending"
+							],
+							"query": [
+								{
+									"key": "district_code",
+									"value": "6"
+								},
+								{
+									"key": "parentCode",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-356f244d-85d3-4593-9f29-2c1533f5d71f",
+							"name": "approved",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/getBranchSumReport/approved?district_code=6&parentCode=10",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"getBranchSumReport",
+										"approved"
+									],
+									"query": [
+										{
+											"key": "district_code",
+											"value": "6"
+										},
+										{
+											"key": "parentCode",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						},
+						{
+							"id": "36946384-97871580-f553-4b9c-b6dc-c461fdbbec87",
+							"name": "rejected",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/getBranchSumReport/rejected?district_code=6&parentCode=10",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"getBranchSumReport",
+										"rejected"
+									],
+									"query": [
+										{
+											"key": "district_code",
+											"value": "6"
+										},
+										{
+											"key": "parentCode",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
 				}
 			],
 			"id": "36946384-cef8f74c-1364-4dbb-b63b-0761d16ec86e"

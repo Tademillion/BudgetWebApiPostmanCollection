@@ -1073,25 +1073,24 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "localhost:8094/Bplan_api/app/getBranchSumReport/pending?district_code=6&parentCode=10",
+							"raw": "http://localhost:8094/branchData/pending?parentCode=11&branch_code=1051",
+							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8094",
 							"path": [
-								"Bplan_api",
-								"app",
-								"getBranchSumReport",
+								"branchData",
 								"pending"
 							],
 							"query": [
 								{
-									"key": "district_code",
-									"value": "6"
+									"key": "parentCode",
+									"value": "11"
 								},
 								{
-									"key": "parentCode",
-									"value": "10"
+									"key": "branch_code",
+									"value": "1051"
 								}
 							]
 						}

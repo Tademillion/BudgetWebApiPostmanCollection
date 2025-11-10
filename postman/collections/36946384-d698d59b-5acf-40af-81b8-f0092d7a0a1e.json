@@ -1270,7 +1270,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n   \"branch_code\": \"1205\", \r\n   \"parentcode\": \"123000\",\r\n   \"reason\":\"TEst Purpose\",\r\n   \"status\":\"1\",\r\n   \"UserId\":\"Aba00003\"\r\n}",
+							"raw": "{\r\n   \"branch_code\": \"12054\", \r\n   \"parentcode\": \"123000\",\r\n    \"status\":\"2\",\r\n   \"UserId\":\"Aba00003\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1487,7 +1487,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "[\r\n  {\r\n    \"branch_code\": \"ET0010265\",\r\n    \"actual\": \"125000\",\r\n    \"estimated\": \"130000\",\r\n    \"parent_code\": \"100101\",\r\n    \"Jul\": \"10000\",\r\n    \"Aug\": \"11000\",\r\n    \"Sep\": \"9500\",\r\n    \"Oct\": \"10500\",\r\n    \"Nov\": \"12000\",\r\n    \"Dec\": \"11500\",\r\n    \"Jan\": \"9000\",\r\n    \"Feb\": \"8800\",\r\n    \"Mar\": \"9200\",\r\n    \"Apr\": \"9700\",\r\n    \"May\": \"9800\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"ET0010265\",\r\n    \"actual\": \"140000\",\r\n    \"estimated\": \"145000\",\r\n    \"parent_code\": \"100102\",\r\n    \"Jul\": \"12000\",\r\n    \"Aug\": \"12500\",\r\n    \"Sep\": \"13000\",\r\n    \"Oct\": \"11000\",\r\n    \"Nov\": \"11500\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"9500\",\r\n    \"Feb\": \"9400\",\r\n    \"Mar\": \"9600\",\r\n    \"Apr\": \"9800\",\r\n    \"May\": \"10000\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"ET0010265\",\r\n    \"actual\": \"155000\",\r\n    \"estimated\": \"160000\",\r\n    \"parent_code\": \"100103\",\r\n    \"Jul\": \"13000\",\r\n    \"Aug\": \"13500\",\r\n    \"Sep\": \"12500\",\r\n    \"Oct\": \"12000\",\r\n    \"Nov\": \"12200\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"10000\",\r\n    \"Feb\": \"9700\",\r\n    \"Mar\": \"9800\",\r\n    \"Apr\": \"9900\",\r\n    \"May\": \"10100\",\r\n    \"Jun\": \"10400\"\r\n  }\r\n]\r\n",
+							"raw": "[\r\n  {\r\n    \"branch_code\": \"1051\",\r\n    \"actual\": \"125000\",\r\n    \"estimated\": \"130000\",\r\n    \"parent_code\": \"100201\",\r\n    \"Jul\": \"10000\",\r\n    \"Aug\": \"11000\",\r\n    \"Sep\": \"9500\",\r\n    \"Oct\": \"10500\",\r\n    \"Nov\": \"12000\",\r\n    \"Dec\": \"11500\",\r\n    \"Jan\": \"9000\",\r\n    \"Feb\": \"8800\",\r\n    \"Mar\": \"9200\",\r\n    \"Apr\": \"9700\",\r\n    \"May\": \"9800\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"1051\",\r\n    \"actual\": \"140000\",\r\n    \"estimated\": \"145000\",\r\n    \"parent_code\": \"100202\",\r\n    \"Jul\": \"12000\",\r\n    \"Aug\": \"12500\",\r\n    \"Sep\": \"13000\",\r\n    \"Oct\": \"11000\",\r\n    \"Nov\": \"11500\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"9500\",\r\n    \"Feb\": \"9400\",\r\n    \"Mar\": \"9600\",\r\n    \"Apr\": \"9800\",\r\n    \"May\": \"10000\",\r\n    \"Jun\": \"10200\"\r\n  },\r\n  {\r\n    \"branch_code\": \"1051\",\r\n    \"actual\": \"155000\",\r\n    \"estimated\": \"160000\",\r\n    \"parent_code\": \"100203\",\r\n    \"Jul\": \"13000\",\r\n    \"Aug\": \"13500\",\r\n    \"Sep\": \"12500\",\r\n    \"Oct\": \"12000\",\r\n    \"Nov\": \"12200\",\r\n    \"Dec\": \"11800\",\r\n    \"Jan\": \"10000\",\r\n    \"Feb\": \"9700\",\r\n    \"Mar\": \"9800\",\r\n    \"Apr\": \"9900\",\r\n    \"May\": \"10100\",\r\n    \"Jun\": \"10400\"\r\n  }\r\n]\r\n",
 							"options": {
 								"raw": {
 									"language": "json"

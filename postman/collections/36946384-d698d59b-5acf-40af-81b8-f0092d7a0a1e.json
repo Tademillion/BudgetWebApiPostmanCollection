@@ -389,7 +389,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8094/Bplan_api/app/getSubFormats?parentcode=101",
+							"raw": "localhost:8094/Bplan_api/app/getAllSubFormats",
 							"host": [
 								"localhost"
 							],
@@ -397,13 +397,7 @@
 							"path": [
 								"Bplan_api",
 								"app",
-								"getSubFormats"
-							],
-							"query": [
-								{
-									"key": "parentcode",
-									"value": "101"
-								}
+								"getAllSubFormats"
 							]
 						}
 					},
@@ -501,7 +495,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8094/Bplan_api/app/getSubMainFormats?parentcode=10",
+							"raw": "localhost:8094/Bplan_api/app/getAllSubMainFormats",
 							"host": [
 								"localhost"
 							],
@@ -509,13 +503,7 @@
 							"path": [
 								"Bplan_api",
 								"app",
-								"getSubMainFormats"
-							],
-							"query": [
-								{
-									"key": "parentcode",
-									"value": "10"
-								}
+								"getAllSubMainFormats"
 							]
 						}
 					},
@@ -1073,7 +1061,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "localhost:8094/Bplan_api/app/getBranchSumReport/pending?district_code=6&parentCode=10",
+							"raw": "localhost:8094/Bplan_api/app/getBranchSumReport/pending?district_code=3&parentCode=10",
 							"host": [
 								"localhost"
 							],
@@ -1087,7 +1075,7 @@
 							"query": [
 								{
 									"key": "district_code",
-									"value": "6"
+									"value": "3"
 								},
 								{
 									"key": "parentCode",

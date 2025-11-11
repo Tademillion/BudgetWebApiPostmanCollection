@@ -380,7 +380,7 @@
 					]
 				},
 				{
-					"name": "getSuBmainFormats",
+					"name": "getSuBmainFormatsByParentCode",
 					"id": "36946384-3fab474c-4e69-4d4d-8d61-e8476080233d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -410,6 +410,62 @@
 					"response": [
 						{
 							"id": "36946384-71b2f06c-ab94-466d-b029-49ec5691c1ec",
+							"name": "success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8094/Bplan_api/app/getformatdata",
+									"host": [
+										"localhost"
+									],
+									"port": "8094",
+									"path": [
+										"Bplan_api",
+										"app",
+										"getformatdata"
+									]
+								}
+							},
+							"_postman_previewlanguage": "Text",
+							"header": [],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "getSuBmainFormatsByParentCode Copy",
+					"id": "36946384-e876cbb5-a044-4d94-befe-a991f09cab49",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/getSubMainFormats?parentcode=10",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"getSubMainFormats"
+							],
+							"query": [
+								{
+									"key": "parentcode",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "36946384-21d50238-a57d-4a35-a515-d55a1a48f14e",
 							"name": "success",
 							"originalRequest": {
 								"method": "GET",

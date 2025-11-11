@@ -436,7 +436,7 @@
 					]
 				},
 				{
-					"name": "getSuBmainFormatsByParentCode Copy",
+					"name": "GetAllSubMainFormats",
 					"id": "36946384-e876cbb5-a044-4d94-befe-a991f09cab49",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true

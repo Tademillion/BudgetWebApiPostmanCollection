@@ -380,7 +380,7 @@
 					]
 				},
 				{
-					"name": "getSubFormats Copy",
+					"name": "getAllSubFormats",
 					"id": "36946384-ad176ad9-4a67-413a-9862-57803ca75e0b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true

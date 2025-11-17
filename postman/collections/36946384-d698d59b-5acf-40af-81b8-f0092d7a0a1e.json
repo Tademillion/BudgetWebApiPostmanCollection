@@ -545,9 +545,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8094/Bplan_api/app/getSubFormatsByLevel?parentcode=1011",
+							"raw": "10.100.13.44:8094/Bplan_api/app/getSubFormatsByLevel?parentcode=10",
 							"host": [
-								"localhost"
+								"10",
+								"100",
+								"13",
+								"44"
 							],
 							"port": "8094",
 							"path": [
@@ -558,7 +561,7 @@
 							"query": [
 								{
 									"key": "parentcode",
-									"value": "1011"
+									"value": "10"
 								}
 							]
 						}
@@ -610,7 +613,7 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8094/Bplan_api/app/updateSubMainFormats/1107e",
+							"raw": "localhost:8094/Bplan_api/app/updateSubMainFormats/11",
 							"host": [
 								"localhost"
 							],
@@ -619,7 +622,7 @@
 								"Bplan_api",
 								"app",
 								"updateSubMainFormats",
-								"1107e"
+								"11"
 							]
 						}
 					},

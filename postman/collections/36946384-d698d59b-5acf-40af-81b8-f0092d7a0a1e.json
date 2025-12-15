@@ -838,7 +838,7 @@
 			"id": "36946384-1b134e99-70ef-407a-b390-618c94645668"
 		},
 		{
-			"name": "DistrictReport",
+			"name": "Report",
 			"item": [
 				{
 					"name": "depositBydistrict",
@@ -1274,6 +1274,18 @@
 							"body": ""
 						}
 					]
+				},
+				{
+					"name": "New Request",
+					"id": "36946384-6ccfd94f-3b7a-47bc-ba84-434c980c8251",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "36946384-cef8f74c-1364-4dbb-b63b-0761d16ec86e"

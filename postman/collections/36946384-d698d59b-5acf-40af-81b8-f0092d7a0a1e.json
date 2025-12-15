@@ -1276,7 +1276,7 @@
 					]
 				},
 				{
-					"name": "New Request",
+					"name": "BankBudget",
 					"id": "36946384-6ccfd94f-3b7a-47bc-ba84-434c980c8251",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true

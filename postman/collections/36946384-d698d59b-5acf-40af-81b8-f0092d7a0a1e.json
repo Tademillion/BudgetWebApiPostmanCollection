@@ -1179,17 +1179,20 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://localhost:8094/Bplan_api/app/branchData/pending?parentCode=10&branch_code=ET0010167",
+							"raw": "http://10.100.13.44:8094/Bplan_api/app/branchData/approved?parentCode=10&branch_code=ET0010167",
 							"protocol": "http",
 							"host": [
-								"localhost"
+								"10",
+								"100",
+								"13",
+								"44"
 							],
 							"port": "8094",
 							"path": [
 								"Bplan_api",
 								"app",
 								"branchData",
-								"pending"
+								"approved"
 							],
 							"query": [
 								{

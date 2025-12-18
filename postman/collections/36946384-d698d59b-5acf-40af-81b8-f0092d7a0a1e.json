@@ -1283,7 +1283,34 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/GetBankReport?parentCode=10",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"GetBankReport"
+							],
+							"query": [
+								{
+									"key": "parentCode",
+									"value": "10"
+								}
+							]
+						}
 					},
 					"response": []
 				}

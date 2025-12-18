@@ -1313,6 +1313,45 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "BankBudget Copy",
+					"id": "36946384-6b13e12c-d102-4089-963b-08622b2ce112",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8094/Bplan_api/app/GetBankReport?parentCode=10",
+							"host": [
+								"localhost"
+							],
+							"port": "8094",
+							"path": [
+								"Bplan_api",
+								"app",
+								"GetBankReport"
+							],
+							"query": [
+								{
+									"key": "parentCode",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "36946384-cef8f74c-1364-4dbb-b63b-0761d16ec86e"

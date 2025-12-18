@@ -19,7 +19,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"discription\":\"demandDeposit01Lasr\",\r\n    \"parentcode\":\"1001\"\r\n}",
+							"raw": "{\r\n    \"discription\":\"Demands\",\r\n    \"parentcode\":\"100590\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -333,7 +333,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8094/Bplan_api/app/getSubFormats?parentcode=101",
+							"raw": "localhost:8094/Bplan_api/app/getSubFormats?parentcode=10",
 							"host": [
 								"localhost"
 							],
@@ -346,7 +346,7 @@
 							"query": [
 								{
 									"key": "parentcode",
-									"value": "101"
+									"value": "10"
 								}
 							]
 						}
@@ -439,9 +439,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8094/Bplan_api/app/getSubMainFormats?parentcode=10",
+							"raw": "10.100.13.44:8094/Bplan_api/app/getSubMainFormats?parentcode=10",
 							"host": [
-								"localhost"
+								"10",
+								"100",
+								"13",
+								"44"
 							],
 							"port": "8094",
 							"path": [
@@ -1451,7 +1454,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n   \"branch_code\": \"12054\", \r\n   \"parentcode\": \"123000\",\r\n    \"status\":\"2\",\r\n   \"UserId\":\"Aba00003\"\r\n}",
+							"raw": "{\r\n   \"branch_code\": \"ET0010013\", \r\n   \"parentcode\": \"1001\",\r\n    \"status\":\"1\",\r\n   \"UserId\":\"Aba00003\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"

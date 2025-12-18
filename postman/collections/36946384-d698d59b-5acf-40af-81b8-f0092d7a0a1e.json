@@ -1315,7 +1315,7 @@
 					"response": []
 				},
 				{
-					"name": "BankBudget Copy",
+					"name": "BankBudgetAll",
 					"id": "36946384-6b13e12c-d102-4089-963b-08622b2ce112",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true

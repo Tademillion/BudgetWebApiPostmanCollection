@@ -99,7 +99,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"discription\":\"Conventional Deposit Deposit\",\r\n    \"parentcode\":\"10\"\r\n}",
+							"raw": "{\r\n    \"discription\":\"Conventional Deposit Deposit\",\r\n    \"parentcode\":\"19\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1176,7 +1176,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://localhost:8094/Bplan_api/app/branchData/pending?parentCode=10&branch_code=ET0010167",
+							"raw": "http://localhost:8094/Bplan_api/app/branchData/approved?parentCode=10&branch_code=ET0010013",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1186,7 +1186,7 @@
 								"Bplan_api",
 								"app",
 								"branchData",
-								"pending"
+								"approved"
 							],
 							"query": [
 								{
@@ -1195,7 +1195,7 @@
 								},
 								{
 									"key": "branch_code",
-									"value": "ET0010167"
+									"value": "ET0010013"
 								}
 							]
 						}

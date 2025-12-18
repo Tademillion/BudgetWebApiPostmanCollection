@@ -1179,7 +1179,7 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://localhost:8094/Bplan_api/app/branchData/approved?parentCode=10&branch_code=ET0010013",
+							"raw": "http://localhost:8094/Bplan_api/app/branchData/pending?parentCode=10&branch_code=ET0010167",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1189,7 +1189,7 @@
 								"Bplan_api",
 								"app",
 								"branchData",
-								"approved"
+								"pending"
 							],
 							"query": [
 								{
@@ -1198,7 +1198,7 @@
 								},
 								{
 									"key": "branch_code",
-									"value": "ET0010013"
+									"value": "ET0010167"
 								}
 							]
 						}

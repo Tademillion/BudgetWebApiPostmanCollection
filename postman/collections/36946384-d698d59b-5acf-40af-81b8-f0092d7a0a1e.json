@@ -211,7 +211,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\"formatId\": \"010\", \r\n\"Desscription\": \"Operational Format\"\r\n}",
+							"raw": "{\r\n\"formatId\": \"01089\", \r\n\"Desscription\": \"Operational Format\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -219,7 +219,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8094/Bplan_api/app/addMainFormat",
+							"raw": "http://localhost:8094/Bplan_api/app/addMainFormats",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -228,7 +228,7 @@
 							"path": [
 								"Bplan_api",
 								"app",
-								"addMainFormat"
+								"addMainFormats"
 							]
 						}
 					},

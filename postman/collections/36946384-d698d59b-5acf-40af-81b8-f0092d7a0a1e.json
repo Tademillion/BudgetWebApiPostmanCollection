@@ -1300,12 +1300,9 @@
 							}
 						},
 						"url": {
-							"raw": "10.100.13.44:8094/Bplan_api/app/GetBankReport?parentCode=10",
+							"raw": "localhost:8094/Bplan_api/app/GetBankReport?parentCode=10",
 							"host": [
-								"10",
-								"100",
-								"13",
-								"44"
+								"localhost"
 							],
 							"port": "8094",
 							"path": [

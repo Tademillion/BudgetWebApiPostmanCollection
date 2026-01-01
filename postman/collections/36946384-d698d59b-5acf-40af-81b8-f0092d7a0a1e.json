@@ -1342,12 +1342,12 @@
 							}
 						},
 						"url": {
-							"raw": "10.100.13.44:8094/Bplan_api/app/GetBankReportAll?parentCode=10",
+							"raw": "172.16.239.183:8094/Bplan_api/app/GetBankReportAll?parentCode=10",
 							"host": [
-								"10",
-								"100",
-								"13",
-								"44"
+								"172",
+								"16",
+								"239",
+								"183"
 							],
 							"port": "8094",
 							"path": [
